@@ -2584,7 +2584,7 @@ input[type="submit"]:hover {
 .back-to-top {
   position: fixed;
   bottom: -40px;
-  left: 40px;
+  right: 40px;
   display: block;
   width: 45px;
   height: 45px;
