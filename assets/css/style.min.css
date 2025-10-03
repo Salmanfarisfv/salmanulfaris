@@ -2,11 +2,12 @@
 :root {
   --color-primary: #3577f0;
   --light-primary: #8c71db;
-  --color-secondary: #ff497c;
+  --color-secondary: #ff0000;  
+  /* --color-secondary: #ff0000; */
   --color-tertiary: #fab8c4;
   --color-white: #ffffff;
   --color-dark: #27272e;
-  --color-black: #000000;
+  --color-black: #0f0f0f;
   --color-light: #cbd3d9;
   --color-lighter: #f6f7fb;
   --color-lightest: #c4c4c4;
@@ -374,7 +375,7 @@ html {
 }
 
 .background{
-  background-color: #6676ff;
+  background-color: #0f0f0f;
 }
 
 
@@ -1843,7 +1844,7 @@ textarea:-ms-input-placeholder {
 }
 
 .axil-header{
-  background-color: #6676ff;
+  background-color: #0f0f0f;
 }
 
 
@@ -2502,7 +2503,7 @@ input[type="submit"]:hover {
 }
 
 .about_card i{
-  color: #000000;
+  color: #ff0000;
 }
 
 .about_card i:hover{
@@ -2528,6 +2529,15 @@ input[type="submit"]:hover {
   font-size: 45px;
   font-weight: 500;
 }
+
+.about-heading span{
+  color: #ff0000;
+}
+
+.about-work-title span{
+  color: #ff0000;
+}
+
 @media(max-width:768px){
   .about-heading h1{
     font-size:35px;
@@ -4956,7 +4966,7 @@ button.axil-btn.btn-size-md i {
 }
 
 .banner{
-  background-color: #6676ff;
+  background-color: #0f0f0f;
   padding: 60px;
   /* background-image: url("../images/bg/bg-image-4.jpg"); */
   background-repeat: no-repeat;
@@ -4968,7 +4978,7 @@ button.axil-btn.btn-size-md i {
   height: 400px;
 } */
 .main-slider-style-3 {
-  background-color: #6676ff;
+  background-color: #0f0f0f;
   padding: 150px 0;
   /* background-image: url("../images/bg/bg-image-4.jpg"); */
   background-repeat: no-repeat;
@@ -6726,7 +6736,7 @@ button.axil-btn.btn-size-md i {
 }
 .header-style-5 .axil-header-top {
   background-color: var(--color-heading);
-  /* background-color: #6676ff; */
+  /* background-color: #0f0f0f; */
   padding: 6px 0;
 }
 .header-style-5 .header-top-dropdown .dropdown .dropdown-toggle {
@@ -6835,7 +6845,7 @@ button.axil-btn.btn-size-md i {
 .axil-mainmenu.axil-sticky .mainmenu > li > a {
   height: 80px;
   line-height: 80px;
-  color: #000000;
+  color: #0f0f0f;
 }
 .axil-mainmenu.axil-sticky .mainmenu > li > a:before {
   bottom: 20px;
@@ -8357,9 +8367,17 @@ button.axil-btn.btn-size-md i {
   background-color: rgba(0, 0, 0, 0);
   position: relative;
   z-index: 1;
-  color: var(--color-heading);
+  /* color: var(--color-heading); */
+  color: #ffffff;
   font-size: 23px;
 }
+
+.axil-mainmenu.axil-sticky .axil-mobile-toggle .menu-btn{
+  color: var(--color-heading);
+}
+
+
+
 @media only screen and (max-width: 479px) {
   .axil-mobile-toggle .menu-btn {
     font-size: 22px;
@@ -8437,7 +8455,7 @@ button.axil-btn.btn-size-md i {
   height: 2px;
   width: 0;
   /* background-color: var(--color-black); */
-  background-color: #ff497c;
+  background-color: #ff0000;
   position: absolute;
   bottom: 29px;
   left: 0;
@@ -18035,7 +18053,7 @@ body.open .closeMask {
 }
 
 .portfolio{
-  background-color: #6676ff;
+  background-color: #0f0f0f;
 }
 
 
@@ -18064,7 +18082,7 @@ body.open .closeMask {
 }
 
 .footer_bg{
-  background-color: #6676ff;
+  background-color: #0f0f0f;
  
 }
 
@@ -18122,9 +18140,9 @@ body.open .closeMask {
 
 
 .contact_btn a:hover{
-  background-color: #ff497c;
+  background-color: #ff0000;
   color: #ffffff;
-  border: 2px solid #ff497c;
+  border: 2px solid #ff0000;
   
 }
 
@@ -18176,7 +18194,7 @@ body.open .closeMask {
 }
 .social-media-icon i{
   font-size: 20px;
-  background-color: #ff497c;
+  background-color: #ff0000;
   padding: 10px;
   color: #ffffff;
   margin: 10px;
@@ -18198,7 +18216,8 @@ body.open .closeMask {
 }
 
 .about-my-work{
-  background-color: #6676ff;
+  background-color: #0f0f0f;
+  /* background-color: #0f0f0f; */
 }
 
 /* about end */
@@ -18215,5 +18234,36 @@ body.open .closeMask {
 /* logo */
 
 .axil-mainmenu.axil-sticky .header-brand a{
-  color: #000000;
+  color: #0f0f0f;
 }
+
+/* end */
+
+/* main-slider-content span */
+
+.main-slider-content span{
+  /* color: #ff0048; */
+  /* color: #fd5b38; */
+  /* color: #ff0000; */
+  color: #ff0000;
+}
+
+
+
+/* contact  */
+
+.contact-form span{
+  color: #ff0000;
+}
+
+
+
+
+
+
+
+
+
+/* old colores */
+/* #6676ff sky blue*/
+/*  #ff0000  rose*/
