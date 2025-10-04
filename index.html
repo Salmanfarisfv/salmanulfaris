@@ -121,8 +121,19 @@
                     <div class="col-xl-12 col-lg-12  banner_content">
                         <div class="banner_image">
                             <img src="assets/images/salman-5.jpg" alt="salman image">
-
                         </div>
+
+                        <!-- insta -->
+                        <div class="banner-icon-1">
+                            <a href="https://www.instagram.com/salman____ek?igsh=OTc1czlldWM1a3J3" target="_blank"> <img src="assets/images/insta.png" class="img-fluid" alt=""> </a>
+                        </div>
+                        <!-- insta -->
+
+                        <!-- linkidin -->
+                        <div class="banner-icon-2">
+                            <a href="https://www.linkedin.com/in/salmanul-faris-b738062a6" target="_blank"> <img src="assets/images/linkidin.png" class="img-fluid" alt=""> </a>
+                        </div>
+                        <!-- linkidin -->
 
                         <div class="main-slider-content">
                             <h4>Salmanul Faris</h4>
@@ -509,7 +520,45 @@
     <script src="assets/js/main.js"></script>
 
 
-    
+    <!-- GSAP CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+
+
+<!-- banner insta icon -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  gsap.fromTo(
+    ".banner-icon-1",
+    { y: -30, },   // start from top & invisible
+    { 
+      y: 10,                  // move downward
+      duration: 2,            // speed
+      ease: "power1.inOut",   // smooth motion
+      repeat: -1,             // infinite loop
+      yoyo: true              // go back up after reaching bottom
+    }
+  );
+});
+</script>
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  gsap.fromTo(
+    ".banner-icon-2",
+    { y: 30, },   // start from top & invisible
+    { 
+      y: -10,                  // move downward
+      duration: 2,            // speed
+      ease: "power1.inOut",   // smooth motion
+      repeat: -1,             // infinite loop
+      yoyo: true              // go back up after reaching bottom
+    }
+  );
+});
+</script>
 
     
 
