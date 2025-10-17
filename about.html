@@ -40,6 +40,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
 
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     
 </head>
 
@@ -121,8 +123,8 @@
                 <div class="row pt-3 pb-4 about_content">
                    
                     <div class="col-lg-4 pt-5">
-                        <div class="about-image text-center">
-                            <img class="img-fluid" src="assets/images/about-image.jpg" alt="">
+                        <div class="about-image text-center" data-aos="flip-left">
+                            <img class="img-fluid" src="assets/images/about-image-2.jpg" alt="">
                         </div>
                     </div>
 
@@ -133,7 +135,7 @@
                             keeping myself updated, I read blogs, watch tutorials 
                             and attend conferences & meetups.
                         </p> -->
-                        <p>Hi, I'm Salmanul Faris, a passionate Web Developer with 1 year of hands-on experience in crafting responsive and user-friendly websites. I specialize in frontend development using HTML, CSS, Bootstrap, and JavaScript, and I also work on the backend with Laravel to build dynamic, secure, and scalable web applications.
+                        <p data-aos="fade-left">Hi, I'm Salmanul Faris, a passionate Web Developer with 1 year of hands-on experience in crafting responsive and user-friendly websites. I specialize in frontend development using HTML, CSS, Bootstrap, and JavaScript, and I also work on the backend with Laravel to build dynamic, secure, and scalable web applications.
                             <br>
                             Whether it's creating pixel-perfect designs or bringing functionality to life, I enjoy turning ideas into reality on the web. I'm always eager to learn new technologies and improve my skills to deliver better results.
                         </p>
@@ -143,14 +145,14 @@
                             <div class="row">
 
                             <div class="col-lg-4 col-md-4 ">
-                                <div class="about_card">
+                                <div class="about_card" data-aos="flip-right">
                                     <h4><i class="fa-solid fa-code"></i> Languages</h4>
                                     <h6>HTML, CSS, JavaScript, Bootstrap, Laravel,</h6>
                                 </div>
                             </div>
     
                             <div class="col-lg-4 col-md-4 ">
-                                <div class="about_card">
+                                <div class="about_card" data-aos="flip-left">
                                     <h4><i class="fa-solid fa-graduation-cap"></i> Education</h4>
                                     <h6>BA Sociology Pass Out.</h6>
                                     <h6></h6>
@@ -159,7 +161,7 @@
                             </div>
     
                             <div class="col-lg-4 col-md-4 ">
-                                <div class="about_card">
+                                <div class="about_card" data-aos="flip-right">
                                     <h4><i class="fa-solid fa-laptop"></i> Projects</h4>
                                     <h6>Built more than 5 projects.</h6>
                                 </div>
@@ -369,6 +371,29 @@
 
     <!-- Main JS -->
     <script src="assets/js/main.js"></script>
+
+
+<!-- aos -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<!-- <script>
+  AOS.init({
+    duration: 1500,  
+    easing: 'ease-in-out', 
+    once: true   
+  });
+</script> -->
+
+<script>
+  AOS.init({
+    duration: 1500,   
+    easing: 'ease-in-out',
+    once: false,       
+    mirror: true    
+  });
+</script>
+
+<!-- aos -->
 
 </body>
 

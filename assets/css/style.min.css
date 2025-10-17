@@ -2525,7 +2525,13 @@ input[type="submit"]:hover {
     padding-top: 0px;
     padding-bottom: 0px;
   }
+
+  .about-page-section{
+    padding-top: 0px !important;
+  }
 }
+
+
 .about-heading h1{
   color: #ffffff;
   font-size: 45px;
@@ -18196,6 +18202,14 @@ body.open .closeMask {
     top: 7%;
     left: 27%;
   }
+
+  .banner-icon-1{
+    position:absolute;
+    top: 28%;
+    right: 30%;
+  }
+
+  
 }
 
 
