@@ -1856,20 +1856,6 @@ textarea:-ms-input-placeholder {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 input,
 button,
 select,
@@ -1945,7 +1931,8 @@ input[type="email"]::placeholder,
 input[type="number"]::placeholder,
 input[type="tel"]::placeholder,
 textarea::placeholder {
-  color: var(--color-body);
+  /* color: var(--color-body); */
+  color: #cbd3d9;
   opacity: 1;
 }
 input[type="text"]:-ms-input-placeholder,
@@ -1954,7 +1941,8 @@ input[type="email"]:-ms-input-placeholder,
 input[type="number"]:-ms-input-placeholder,
 input[type="tel"]:-ms-input-placeholder,
 textarea:-ms-input-placeholder {
-  color: var(--color-body);
+  /* color: var(--color-body); */
+  color: #cbd3d9;
 }
 input[type="text"]::-ms-input-placeholder,
 input[type="password"]::-ms-input-placeholder,
@@ -1962,7 +1950,8 @@ input[type="email"]::-ms-input-placeholder,
 input[type="number"]::-ms-input-placeholder,
 input[type="tel"]::-ms-input-placeholder,
 textarea::-ms-input-placeholder {
-  color: var(--color-body);
+  /* color: var(--color-body); */
+  color: #cbd3d9;
 }
 input[type="text"].p-holder__active,
 .input-active input[type="text"],
@@ -2226,7 +2215,9 @@ input[type="radio"] ~ label::after {
   height: 50px;
   font-size: var(--font-size-b2);
   padding: 0 20px;
-  background-color: #fff;
+  /* background-color: #fff; */
+  background: transparent;
+  color: #ffffff !important;
   border: 1px solid var(--color-light);
 }
 .form-group input:focus {
@@ -2240,8 +2231,10 @@ input[type="radio"] ~ label::after {
   resize: none;
   padding: 15px;
   font-size: var(--font-size-b2);
-  background-color: #fff;
+  /* background-color: #fff; */
+  background: transparent;
   border: 1px solid var(--color-light);
+  color: #ffffff !important;
   line-height: 1.5;
   padding-left: 30px;
   padding-top: 20px;
@@ -2724,12 +2717,13 @@ input[type="submit"]:hover {
 }
 a.axil-btn,
 button.axil-btn {
-  border-radius: 6px;
+  border-radius: 50px;
   font-size: var(--font-size-b1);
   line-height: var(--line-height-b1);
-  font-weight: 700;
+  font-weight: 500;
   display: inline-block;
-  padding: 16px 38px;
+  /* padding: 16px 38px; */
+  padding: 10px 22px;
   position: relative;
   transition: all 0.3s ease-in-out;
   z-index: 1;
@@ -2739,7 +2733,7 @@ button.axil-btn:before {
   content: "";
   height: 100%;
   width: 100%;
-  border-radius: 6px;
+  border-radius: 50px;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -2795,12 +2789,14 @@ button.axil-btn.btn-bg-lighter:before {
 }
 a.axil-btn.btn-bg-primary,
 button.axil-btn.btn-bg-primary {
-  background-color: var(--color-primary);
+  /* background-color: var(--color-primary); */
   color: var(--color-white);
 }
 a.axil-btn.btn-bg-primary:before,
 button.axil-btn.btn-bg-primary:before {
-  background-color: var(--color-primary);
+  /* background-color: var(--color-primary); */
+  background-color: #ff0000;
+  
 }
 a.axil-btn.btn-bg-primary i,
 button.axil-btn.btn-bg-primary i {
